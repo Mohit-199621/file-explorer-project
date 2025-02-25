@@ -1,0 +1,43 @@
+.file-explorer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+}
+.subFile-explorer{
+    background: #d9c9c9;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+.mainFileDiv{
+    display: flex;
+    flex-direction: column;
+}
+.subDirectory{
+    padding-left: 20px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+.file-operations{
+    display: flex    ;
+    flex-direction: column;
+    gap: 20px;
+}
+.file-operations input{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: green;
+}
+.file-operations button{
+    padding: 5px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
